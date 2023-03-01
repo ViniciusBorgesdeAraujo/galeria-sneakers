@@ -1,0 +1,215 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Helvetica;
+    box-sizing: border-box;
+  }
+  
+  /* Cabeçalho */
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    background-color: #3db36b;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .pesquisa {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0);
+    padding: 5px;
+  }
+  
+  .pesquisa input[type="text"] {
+    border: none;
+    outline: none;
+    width: 500px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px 0 0 5px;
+  }
+  
+  .pesquisa btn-compra {
+    background-color: #3db36b;
+    color: #fff;
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: -1px;
+  }
+
+  .btn-compra {
+    display: block;
+    width: 30%;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: #3db36b;
+    color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+  }
+  
+  .btn-compra:hover {
+    background-color: #0f642f;
+  }
+  
+  h1 {
+    font-size: px;
+    margin: 0;
+    color: #fff;
+  }
+  
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  ul li {
+    margin-right: 20px;
+  }
+  
+  ul li:last-child {
+    margin-right: 0;
+  }
+  
+  ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  ul li a:hover {
+    color: #0f642f;
+  }  
+  
+  /* Grid de produtos */
+  .container {
+    background-color: #eee;
+    min-height: 60vh;
+    padding: 50px;
+  }
+  
+  .products-container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .card {
+    width: 31%;
+    margin: 1% 1%;
+    display: inline-block;
+    padding: 15px;
+  }
+  
+  .product-image {
+    height: 300px;
+    width: 100%;
+    margin-bottom: 10px;
+    background-position: center;
+    background-size: cover;
+  }
+  
+  #img-1 {
+    background-image: url('../img/tenis1.jpg');
+    border-radius: 5px;
+  }
+  
+  #img-2 {
+    background-image: url('../img/tenis2.jpg');
+    border-radius: 5px;
+  }
+  
+  #img-3 {
+    background-image: url('../img/tenis3.jpg');
+    border-radius: 5px;
+  }
+  
+  #img-4 {
+    background-image: url('../img/tenis4.jpg');
+    border-radius: 5px;
+  }
+  
+  #img-5 {
+    background-image: url('../img/tenis5.jpg');
+    border-radius: 5px;
+  }
+  
+  #img-6 {
+    background-image: url('../img/tenis6.jpg');
+    border-radius: 5px;
+  }
+  
+  h3 {
+    margin-bottom: 10px;
+    color: #3db36b;
+    font-size: 24px;
+  }
+  
+  .card p {
+    margin-bottom: 10px;
+  }
+  
+  .bold {
+    font-weight: bold;
+  }
+  
+  .btn {
+    display: block;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: #3db36b;
+    color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+  }
+  
+  .btn:hover {
+    background-color: #0f642f;
+  }
+  
+  /* Rodapé */
+  footer {
+    background-color: #3db36b;
+    text-align: center;
+    padding: 80px;
+    color: #fff;
+  }
+  
+  .social-container  {
+    background-color: #3db36b;
+    align-items: center;
+    float: left;   
+    padding: 28px 0px 8px;
+    position: absolute;
+    font-size: 24px; 
+  }
+  
+  .social-container a {
+    color: #fff;
+    font-size: 12px;
+    margin: 0 10px;
+    transition: color 0.2s ease-in-out;
+  }
+  
+  .social-container a:hover {
+    color: #0f642f;
+  }
+  
+
+ 
+  
+  
+  
+  
